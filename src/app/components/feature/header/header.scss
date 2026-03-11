@@ -1,0 +1,8 @@
+.navbar-background-image {
+  background-image: url("/images/bakery.jpg"); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover; /* Scale the image to cover the entire navbar area */
+  /* You can add a fallback background color if the image fails to load */
+  background-color: #333; 
+}

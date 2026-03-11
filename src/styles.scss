@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+$textDark: #797b84;
+$textLight: #c9c9c9;
+$footerBottom: #564146;
+$footerTop: #bea5ab;
+$mainBackground: #c5dbd5;
+
+* {
+    color: $textDark;
+}
+
+body {
+    background-color: $mainBackground;
+}
+
+.mainBackground {
+    background-color: $mainBackground;
+}
+
+.footerTop {
+    background-color: $footerTop;
+    padding-bottom: 0;
+    padding-top: 60px;
+}
+
+.footerBottom {
+    padding: 0;
+    background-color: $footerBottom;
+    height: 200px;
+}
+
+.social {
+    color: $textLight;
+    font-size: 30px;
+    margin: 0 5px;
+    margin-bottom: 40px;
+}
