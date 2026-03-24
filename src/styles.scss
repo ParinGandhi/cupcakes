@@ -9,6 +9,7 @@ $textLight: #c9c9c9;
 $footerBottom: #564146;
 $footerTop: #bea5ab;
 $mainBackground: #c5dbd5;
+$footerHeight: 200px;
 
 * {
     color: $textDark;
@@ -56,4 +57,13 @@ body {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.footer-height {
+  height: $footerHeight;
+}
+
+.app-with-footer {
+  padding-bottom: $footerHeight;
+  box-sizing: border-box;
 }
